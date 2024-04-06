@@ -1,0 +1,11 @@
+.sidebar{
+    flex: 0.3;
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar-heading{
+    display: flex;
+    align-items: center;
+    
+}
