@@ -3,7 +3,8 @@
     align-items: center;
     color: #fff;
     cursor: pointer;
-    padding: 0.1rem;    
+    padding: 0.1rem;   
+    padding-left: 0.5rem; 
 }
 .sidebar-option-hide{
     display: flex;
@@ -26,9 +27,11 @@
     /* background-color: #82b8d7; */
     background-color:#5d8fa8;
     border-radius: 1rem;
+    transition: all 0.8s;
 }
 .sidebar-option-hide:hover{
     cursor: pointer;
     background-color:#5d8fa8;
     border-radius: 0.5rem;
+    transition: all 0.8s;
 }
