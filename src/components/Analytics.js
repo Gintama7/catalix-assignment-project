@@ -1,9 +1,10 @@
 import React from 'react'
+import TopBar from './TopBar'
 
 const Analytics = () => {
   return (
-    <div>
-      Stats stats stats
+    <div className='analytics'>
+      <TopBar/>
     </div>
   )
 }
