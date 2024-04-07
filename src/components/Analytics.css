@@ -1,0 +1,43 @@
+.analytics{
+    display: flex;
+    flex-direction: column;
+}
+
+.option-buttons{
+    display: flex;
+    margin-top: 2rem;
+    justify-content: space-around;
+}
+
+.option-buttons button{
+    border-radius: 2rem;
+    padding: 0.5rem 1rem;
+    border: 1px solid gray;
+    background: whitesmoke;
+    font-weight: 500;
+    color: gray;
+}
+
+.img-group{
+    display: flex;
+    margin-top: 2rem;
+    justify-content: space-evenly;
+}
+.img-group img{
+    width: 250px;
+    height: 180px;
+    margin-left: 1rem;
+    border-radius: 1.5rem;
+}
+.info-group{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+}
+
+.info-item{
+    border: 0.5px solid lightgray;
+    padding: 1rem 3rem;
+    border-radius: 1.5rem;
+    box-shadow: gray 1px 1px 5px;
+}
