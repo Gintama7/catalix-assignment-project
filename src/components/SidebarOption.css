@@ -5,8 +5,19 @@
     cursor: pointer;
     padding: 0.1rem;    
 }
+.sidebar-option-hide{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+}
 
-.sidebar-option p{
+.sidebar-option-hide p{
+    display: none;
+}
+
+.sidebar-option p{    
     margin-left: 0.5rem;
     padding-top: 1rem;
 }
@@ -15,4 +26,9 @@
     /* background-color: #82b8d7; */
     background-color:#5d8fa8;
     border-radius: 1rem;
+}
+.sidebar-option-hide:hover{
+    cursor: pointer;
+    background-color:#5d8fa8;
+    border-radius: 0.5rem;
 }

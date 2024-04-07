@@ -1,5 +1,6 @@
 .sidebar{
     flex: 0.2;
+    /* position: fixed; */
     display: flex;
     flex-direction: column;
     padding-left: 1.5rem;
@@ -13,7 +14,7 @@
     padding-top: 0.5rem;
     box-shadow: 10px 10px 5px lightgrey;
     font-family: "Montserrat";
-    
+    transition: all 0.8s;    
 }
 
 .back-button{
@@ -24,11 +25,17 @@
 
 .sidebar-heading{
     display: flex;
-    align-items: center;  
+    align-items: center; 
+
 }
 
 .sidebar-heading h2{
     margin-left: 0.5rem;
+}
+
+.sidebar-options{
+    display: flex;
+    flex-direction: column;
 }
 
 .sidebar-footer{
