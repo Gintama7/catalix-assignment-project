@@ -3,7 +3,9 @@ import { IoIosArrowDown } from 'react-icons/io';
 import './Analytics.css';
 import TableEntry from './TableEntry';
 
+
 const StatTable = () => {
+
   return (
     <div className="stat-table">
       <div className="table-header">
@@ -11,10 +13,10 @@ const StatTable = () => {
           PAGEVIEWS <IoIosArrowDown />
         </p>
         <div className="timeline">
-          <button style={{backgroundColor:"lightblue"}}>Today</button>
+          <button >Today</button>
           <button>Yesterday</button>
           <button>Week</button>
-          <button>Month</button>
+          <button style={{backgroundColor:"lightblue"}}>Month</button>
           <button>Quarter</button>
           <button>Year</button>
           <button className="period">
