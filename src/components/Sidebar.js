@@ -20,7 +20,7 @@ const Sidebar = () => {
   
 
   return (
-    <div className="sidebar" style={{ flex: !show ? 0.001 : 0.1 }}>
+    <div className="sidebar" style={{ flex: !show ? 0.001 : 0.2 }}>
       <div className="back-button">
         {show ? (
           <IoChevronBackCircleOutline size={30} onClick={handleHide} />

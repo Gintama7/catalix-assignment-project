@@ -1,5 +1,6 @@
 import './Analytics.css';
 import InfoItem from './InfoItem';
+import StatTable from './StatTable';
 import TopBar from './TopBar'
 
 const Analytics = () => {
@@ -31,6 +32,7 @@ const Analytics = () => {
           third=""/>
         
       </div>
+      <StatTable/>
     </div>
   )
 }

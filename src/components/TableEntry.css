@@ -1,0 +1,22 @@
+.table-entry{    
+        display: flex; 
+        justify-content: space-evenly;      
+        border-top: 1px solid lightgray;  
+}
+
+.first-entry{
+    justify-self: flex-start;
+    width: 12%;
+    margin-left: 0px;
+    margin-right: 7rem;
+}
+
+.other-entries{
+    display: flex;
+    justify-self: flex-start;
+}
+
+.other-entries p{
+    margin-left: 3rem;
+
+}
